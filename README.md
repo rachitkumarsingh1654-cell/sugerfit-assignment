@@ -7,6 +7,9 @@
   3. Start the application
      -./gradlew bootRun
 
+     
+
+
 🔍 Available Endpoints
   Health Check = GET /health
   Response:
@@ -30,12 +33,14 @@
   }
 
 
+
+
+
 🏗 Design Decisions
 1. controller → handles HTTP requests
 service → contains business logic
 dto → request/response models
 This keeps responsibilities separated and makes the code easier to maintain.
-
 
 2. DTO-based contracts
 All API inputs and outputs are defined using DTOs to ensure:
@@ -48,8 +53,15 @@ scalable microservices
 clear package separation
 
 
+
+
+
 ⚙️ Assumptions
 The HealthAPI will responsd with ACTIVE along with the service which we are running and the current time-stamp
+
+
+
+
 
 🛣 Future Roadmap
 Database integration (PostgreSQL)
