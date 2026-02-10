@@ -1,4 +1,5 @@
 🚀 How to run locally
+
   1. Clone the repository
      -git clone https://github.com/rachitkumarsingh1654-cell/sugerfit-assignment.git
      -cd sugerfit-assignment
@@ -11,6 +12,7 @@
 
 
 🔍 Available Endpoints
+
   Health Check = GET /health
   Response:
   {
@@ -37,6 +39,7 @@
 
 
 🏗 Design Decisions
+
 1. controller → handles HTTP requests
 service → contains business logic
 dto → request/response models
@@ -57,6 +60,7 @@ clear package separation
 
 
 ⚙️ Assumptions
+
 The HealthAPI will responsd with ACTIVE along with the service which we are running and the current time-stamp
 
 
