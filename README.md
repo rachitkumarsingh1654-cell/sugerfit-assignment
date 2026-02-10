@@ -23,9 +23,7 @@
 
 🔍 Available Endpoints
 
-
-
-  Health Check = GET /health
+  1. Health Check = GET /health 
   Response:
   {
   "status": "ACTIVE",
@@ -35,7 +33,7 @@
 
 
 
-  Data Processor = POST /example
+  2. Data Processor = POST /example
   Request:
   {
   "userId": "123",
@@ -59,7 +57,6 @@
 🏗 Design Decisions
 
 
-
 1. controller → handles HTTP requests
 service → contains business logic
 dto → request/response models
@@ -74,7 +71,7 @@ easier validation
 
 
 
-4. Production-ready mindset
+3. Production-ready mindset
 The structure is designed as a base template for:
 scalable microservices
 clear package separation
@@ -88,10 +85,9 @@ clear package separation
 
 
 ⚙️ Assumptions
-
-
-
-The HealthAPI will responsd with ACTIVE along with the service which we are running and the current time-stamp
+  
+  
+  The HealthAPI will responsd with ACTIVE along with the service which we are running and the current time-stamp
 
 
 
@@ -103,12 +99,10 @@ The HealthAPI will responsd with ACTIVE along with the service which we are runn
 
 🛣 Future Roadmap
 
+  1. Database integration (PostgreSQL) 
 
+  2. Logging with request tracing
 
-Database integration (PostgreSQL)
+  3. Validation framework
 
-Logging with request tracing
-
-Validation framework
-
-Unit & integration tests
+  4. Unit & integration tests
