@@ -4,7 +4,6 @@
 
   1. Clone the repository
      -git clone https://github.com/rachitkumarsingh1654-cell/sugerfit-assignment.git
-     -cd sugerfit-assignment
 
      
   3. Ensure Java 17 is installed
