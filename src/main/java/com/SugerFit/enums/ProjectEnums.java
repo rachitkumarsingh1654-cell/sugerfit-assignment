@@ -1,4 +1,4 @@
-package com.SugerFit.commons.enums;
+package com.SugerFit.enums;
 
 public enum ProjectEnums {
     ACTIVE,

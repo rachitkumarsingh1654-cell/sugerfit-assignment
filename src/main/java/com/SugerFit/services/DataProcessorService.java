@@ -2,12 +2,11 @@ package com.SugerFit.services;
 
 import com.SugerFit.dto.request.DataProcessorRequest;
 import com.SugerFit.dto.response.DataProcessorResponse;
-import com.sun.net.httpserver.Authenticator;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
-import static com.SugerFit.commons.enums.ProjectEnums.SUCCESS;
+import static com.SugerFit.enums.ProjectEnums.SUCCESS;
 
 @Service
 public class DataProcessorService {

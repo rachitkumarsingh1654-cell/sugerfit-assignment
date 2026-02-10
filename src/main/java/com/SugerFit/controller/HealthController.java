@@ -7,8 +7,8 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.SugerFit.commons.enums.ProjectEnums.ACTIVE;
-import static com.SugerFit.commons.enums.ProjectEnums.SUGERFIT;
+import static com.SugerFit.enums.ProjectEnums.ACTIVE;
+import static com.SugerFit.enums.ProjectEnums.SUGERFIT;
 
 @RestController
 public class HealthController {
