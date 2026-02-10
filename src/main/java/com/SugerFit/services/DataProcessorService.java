@@ -2,9 +2,12 @@ package com.SugerFit.services;
 
 import com.SugerFit.dto.request.DataProcessorRequest;
 import com.SugerFit.dto.response.DataProcessorResponse;
+import com.sun.net.httpserver.Authenticator;
 import org.springframework.stereotype.Service;
 
 import java.util.UUID;
+
+import static com.SugerFit.commons.enums.ProjectEnums.SUCCESS;
 
 @Service
 public class DataProcessorService {
@@ -12,7 +15,7 @@ public class DataProcessorService {
 
         UUID requestId = UUID.randomUUID();
 
-        DataProcessorResponse dataProcessorResponse = DataProcessorResponse.builder().status("SUCCESS").requestId(requestId).build();
+        DataProcessorResponse dataProcessorResponse = DataProcessorResponse.builder().status(SUCCESS.toString()).requestId(requestId).build();
 
         return dataProcessorResponse;
     }
